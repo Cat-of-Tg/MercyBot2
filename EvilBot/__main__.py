@@ -64,23 +64,21 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
     return ping_time
 PM_START_TEXT = """
-`𝙷𝚎𝚕𝚕𝚘` [👿](https://telegra.ph/file/b1ae67fad00c60d51a5f2.jpg) `𝙼𝚢 𝚗𝚊𝚖𝚎 𝚒𝚜` *𝙴𝚟𝚒𝚕 𝚁𝚘𝚋𝚘𝚝*
-`𝙸'𝚖 𝚑𝚎𝚛𝚎 𝚝𝚘 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞 𝚖𝚊𝚗𝚊𝚐𝚎 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙𝚜! 𝙷𝚒𝚝` *📚𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜*   
+`ʜᴇʏ [👿]() ɪ ᴀᴍ ᴍᴇʀᴄʏ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐏𝐥𝐚𝐜𝐞😇", url="t.me/EVIL_XOBOT?startgroup=true"),
+            text="ADD ME TO YOUR GROUP ", url="t.me/miss_mercyBot?startgroup=true"),
     ],
      [
         InlineKeyboardButton(text="𝐀𝐛𝐨𝐮𝐭💝", callback_data="evil_"),
         InlineKeyboardButton(
-            text="𝐌𝐲 𝐖𝐞𝐛🌐", url=f"http://evilbotz.art.blog"
+            text="ᴍᴜsɪᴄ ɢʀᴏᴜᴘ", url=f"http://t.me/music_and_chats"
         ),
      ],
      [  
-        InlineKeyboardButton(text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭🛠", url="https://t.me/EVIL_SUPPORT_CHAT"),
-        InlineKeyboardButton(text="𝐑𝐞𝐩𝐨🇮🇳", url="https://github.com/shrvan42/EvilBot"),
+        InlineKeyboardButton(text="ᴅᴇᴠ", url="https://OK_bie_Bot"),
     ], 
 
     [
@@ -88,12 +86,10 @@ buttons = [
     ],
 ]
 HELP_STRINGS = """
-`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *𝙴𝚟𝚒𝚕 𝚁𝚘𝚋𝚘𝚝* [👿](https://telegra.ph/file/a064bd8497a5f6f03b290.mp4)
+`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *MERCY * [👿](https://telegra.ph/file/8bab8e2b94fa3234927b5.jpg)
 `𝙲𝚕𝚒𝚌𝚔 𝚘𝚗 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚊𝚋𝚘𝚞𝚝 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝚖𝚘𝚍𝚞𝚕𝚎𝚜..`"""
-evil_IMG = "https://telegra.ph/file/5dc8f5c53fb0c39ed983c.jpg"
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @shrvan42 \
- Supporting isnt always financial! \
+evil_IMG = "https://telegra.ph/file/8bab8e2b94fa3234927b5.jpg"
+DONATE_STRING = """ɴᴏ ɴᴇᴇᴅ ᴏғ ᴍᴏɴᴇʏ ʜᴀᴠᴇ  ʟᴏʟɪᴘᴏᴘ! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 IMPORTED = {}
 MIGRATEABLE = []
@@ -300,14 +296,14 @@ def evil_about_callback(update, context):
     if query.data == "evil_":
         query.message.edit_text(
             text=""" ℹ️ I'm powerful group management bot built to help you manage your group easily.
-                 \n❍ I can restrict users.
-                 \n❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 \n❍ I have an advanced anti-flood system.
-                 \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 \n❍ I check for admins' permissions before executing any command and more stuffs
+                 \n♡ I can restrict users.
+                 \n♡ I can greet users with customizable welcome messages and even set a group's rules.
+                 \n♡ I have an advanced anti-flood system.
+                 \n♡ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+                 \n♡ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+                 \n♡ I check for admins' permissions before executing any command and more stuffs
                  \n\n_My licensed under the GNU General Public License v3.0_ 
-                      here is this [Repository](https://github.com/shrvan42/EvilBot) .""",
+                      here is this [Repository](https://github.com/PoisonBot/Mercy2 .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -331,8 +327,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hey!.. I'm *Evil Robot*
-                 \nHere is the [Source Code](https://github.com/shrvan42/EvilBot) .""",
+            text=""" Hey!.. I'm *Mercy Robot*
+                 \nHere is the [Source Code](https://github.com/PoisonBot/Mercy2) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -597,7 +593,7 @@ def migrate_chats(update: Update, context: CallbackContext):
 def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "𝙷𝚎𝚢𝚊 :) 𝙿𝙼 𝚖𝚎 𝚒𝚏 𝚢𝚘𝚞 𝚑𝚊𝚟𝚎 𝚊𝚗𝚢 𝚚𝚞𝚎𝚜𝚝𝚒𝚘𝚗𝚜 𝚘𝚗 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎 𝚖𝚎!")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}("HEY I AM MERCY SUPPORT CHAT")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
